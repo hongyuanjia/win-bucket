@@ -1,0 +1,15 @@
+{
+    "version": "nightly",
+    "description": "Switch your input method through terminal",
+    "homepage": "https://github.com/daipeihust/im-select",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://raw.githubusercontent.com/daipeihust/im-select/master/win/out/x64/im-select.exe"
+        },
+        "32bit": {
+            "url": "https://raw.githubusercontent.com/daipeihust/im-select/master/win/out/x86/im-select.exe"
+        }
+    },
+    "bin": "im-select.exe"
+}
